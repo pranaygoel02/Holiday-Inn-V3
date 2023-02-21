@@ -9,7 +9,7 @@ import ExtraServices from './components/Services/ExtraServices'
 import Facilities from './components/Facility/Facilities'
 import { useNav } from '../../context/NavContext'
 
-import Bg from '../../assets/images/2.jpg'
+import Bg from '../../assets/images/buddha.jpg'
 import VideoBar from './components/VideoBar'
 import Blog from './components/Blogs/Blog'
 
