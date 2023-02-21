@@ -1,0 +1,43 @@
+.room-card{
+    transition: all 0.5s ease-in-out;
+}
+
+.room-img,.line{
+    transition: all 0.5s ease-in-out;
+}
+
+.room-card:hover .room-img{
+    scale: 1.1;
+    transition: all 0.5s ease-in-out;
+}
+
+.room-info{
+    transition: all 0.5s ease-in-out;
+    transform: translateY(3.5rem);
+}
+
+.blog-info{
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-2rem);
+}
+
+.room-card:hover .room-card-info{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.room-card:hover .room-info, .room-card:hover .blog-info{
+    transform: translateY(0rem);
+    transition: all 0.3s ease-in;
+}
+
+.room-card:hover .blog-info{
+    transform: translateY(-7rem);
+    transition: all 0.3s ease-in;
+}
+
+
+.room-card:hover .line{
+    min-width: 100%;
+    transition: all 0.5s ease-in-out;
+}

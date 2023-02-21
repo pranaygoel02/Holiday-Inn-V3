@@ -1,0 +1,18 @@
+.image-carousel{
+    animation: animate-carousel infinite steps(9,end) 20s ;
+    transition: all 20s ease;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+
+@keyframes animate-carousel{
+    0%{
+        transform: translate3d(0,0,0);
+        animation-timing-function: ease;
+    }
+    100%{
+        transform: translate3d(-130%,0,0);
+        animation-timing-function: ease;
+    }
+    
+}

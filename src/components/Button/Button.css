@@ -1,0 +1,4 @@
+.btn:hover{
+    box-shadow: inset 500px 0px 0px 0px #fff;
+    transition: box-shadow 0.7s ease-in-out;
+}
